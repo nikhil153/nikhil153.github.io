@@ -2,15 +2,6 @@
 label: template_1
 hide_body: false
 fields:
-- name: contact
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Contact
 - name: nikhil_bhagwat
   type: textarea
   default: ''
@@ -20,5 +11,14 @@ fields:
     schema:
       format: markdown
   label: Nikhil Bhagwat
+- name: contact
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Contact
 pages:
 - Bio.md
