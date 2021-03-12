@@ -1,10 +1,8 @@
 ---
 contact: |-
-  Name:
+  Email: nikhil dot bhagwat at mcgill dot ca
 
-  Email:
-
-  LinkedIn:
+  LinkedIn: https://www.linkedin.com/in/nikhil153/
 nikhil_bhagwat: "\n"
 
 ---
