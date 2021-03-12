@@ -4,8 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Contact
+- type: directory
+  path: ''
+  label: index
+  create: documents
+  match: "*"
 - type: document
   path: Bio.md
   label: Bio
