@@ -1,0 +1,10 @@
+{
+    "name": "Nikhil Bhagwat",
+    "short_name": "Nikhil Bhagwat",
+    "icons": [
+        { "src": "/favicon/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" }
+    ],
+    "theme_color": "#333333",
+    "background_color": "#fcfbf9",
+    "display": "browser"
+}

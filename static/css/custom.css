@@ -1,0 +1,45 @@
+/* Profile picture next to the name in the header. The picture is positioned
+   outside the name's box so the name itself stays centered on the page. */
+header .title-block {
+    display: inline-block;
+    position: relative;
+    margin: 30px 0 10px;  /* room for the picture, which is taller than the text */
+}
+
+/* Circular, like a GitHub avatar (the source image is square) */
+header .title-image {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 1.2em;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    object-fit: cover;
+}
+
+header .subtitle {
+    margin: 0.5em 0 0;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 0.02em;
+}
+
+@media only screen and (max-width: 600px) {
+    header .title-block {
+        margin: 0;
+    }
+
+    header .title-image {
+        position: static;
+        transform: none;
+        display: block;
+        margin: 0 auto 0.6em;
+    }
+
+    header .subtitle {
+        font-size: 16px;
+    }
+}

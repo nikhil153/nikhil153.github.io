@@ -1,0 +1,63 @@
+baseURL = "https://nikhil153.github.io/"
+languageCode = "en-us"
+title = "Nikhil Bhagwat"
+theme = "barks"
+disableKinds = ["taxonomy", "term"]
+
+[params.head]
+    author = "Nikhil Bhagwat"
+    description = "Computational neuroscientist working on neuroinformatics, reproducible neuroimaging and machine learning."
+    keywords = ["neuroimaging", "neuroinformatics", "machine learning", "reproducibility", "open science"]
+    custom_css = "/css/custom.css"
+
+# Profile picture shown next to the name in the header (layouts/partials/header.html)
+[params.header]
+    image = "/images/NB_GH_pic.jpeg"
+    subtitle = "Computational Neuroscientist · ORIGAMI Lab, McGill University"
+
+# Navigation bar shown below the name
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Publications"
+        url = "/publications/"
+        weight = 2
+    [[menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight = 3
+
+[params.typography]
+    title_font = "Bree Serif"
+    body_font = "Source Sans Pro"
+
+[params.colors]
+    theme_color = "#333333"
+    background_color = "#fcfbf9"
+    text_color = "#333333"
+    link_color = "#c8102e"  # red from the Nipoppy logo
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:nikhil.bhagwat@mcgill.ca"
+        weight = 1
+    [params.social.cv]
+        name = "CV"
+        class = "ai ai-cv"
+        url = "https://docs.google.com/document/d/1khH5gRmTdI6hrmmiIQSx7AQ_YTWjvrojFAkyNPFRP-g/edit?usp=sharing"
+        weight = 2
+    [params.social.linkedin]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/nikhil153/"
+        weight = 3
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/nikhil153"
+        weight = 4

@@ -1,0 +1,7 @@
+<header>
+    <div class="title-block">
+        {{- with .Site.Params.header.image }}<img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" class="title-image">{{ end -}}
+        <a href="/" class="title">{{ .Site.Title | safeHTML }}</a>
+        {{- with .Site.Params.header.subtitle }}<p class="subtitle">{{ . | safeHTML }}</p>{{ end -}}
+    </div>
+</header>
